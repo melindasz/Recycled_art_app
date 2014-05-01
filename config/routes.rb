@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-resources :contacts, only: [:new, :create]
-resources :visitors, only: [:new, :create]
-root to: 'visitors#new'
+  resources :products
+  resources :contacts, only: [:new, :create]
+  resources :visitors, only: [:new, :create]
+  root to: 'visitors#new'
 end
 
   # The priority is based upon order of creation: first created -> highest priority.

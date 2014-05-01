@@ -5,6 +5,10 @@ ruby '2.1.0'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Picture uploader
+gem 'carrierwave'
+# Resize images uploaded with carrierwave
+gem 'mini_magick', '3.5.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
